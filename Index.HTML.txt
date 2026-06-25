@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fox Streams</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#111,#ff6a00);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    text-align:center;
+    width:90%;
+    max-width:500px;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+p{
+    opacity:.8;
+    margin-bottom:30px;
+}
+
+.link-btn{
+    display:block;
+    text-decoration:none;
+    color:white;
+    background:#222;
+    padding:18px;
+    margin:15px 0;
+    border-radius:15px;
+    font-size:1.2rem;
+    transition:.3s;
+}
+
+.link-btn:hover{
+    background:#ff6a00;
+    transform:scale(1.05);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🦊 Fox Streams</h1>
+    <p>Choose a platform</p>
+
+    <a class="link-btn" href="https://kick.com/foxstreams" target="_blank">
+        🎮 Kick
+    </a>
+
+    <a class="link-btn" href="https://www.twitch.tv/ffoxstreams" target="_blank">
+        💜 Twitch
+    </a>
+
+    <a class="link-btn" href="https://www.instagram.com/ffoxstreams?igsh=M2FsbDJ5NzhwZXpt" target="_blank">
+        📸 Instagram
+    </a>
+
+    <a class="link-btn" href="https://youtube.com/@ffoxstreams?si=2p8Hdf2ASB8hEVDa" target="_blank">
+        ▶️ YouTube
+    </a>
+</div>
+
+</body>
+</html>
